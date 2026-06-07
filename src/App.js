@@ -9,7 +9,7 @@ function App() {
   return (
     <main>
       <StarRating />
-      <button onClick={() => setShowDialog(true)}>Dialog</button>
+      <button className='dialogbtn' onClick={() => setShowDialog(true)}>Dialog</button>
       {showDialog && <Dialog closeDialog={() => setShowDialog(false)} />}
     </main>
   );

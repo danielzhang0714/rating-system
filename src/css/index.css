@@ -23,12 +23,14 @@ body {
 }
 
 .starbox {
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(75, 75, 75);
     border: 1px solid #222;
+    border-radius: 10px;
     display: flex;
+    padding: 10px;
 }
 
-section h2 {
+section h2, section p {
     height: 50px;
     display: flex;
     justify-content: center;
@@ -44,4 +46,37 @@ section h2 {
     background-color: #ffffff;
     font-weight: 600;
     color: rgb(0, 0, 0);
+}
+
+.dialogbtn {
+    position: fixed;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 600;
+    right: 30px;
+    bottom: 30px;
+}
+
+.dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(48, 48, 48);
+    border: 1px solid #222;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+section p {
+    margin-top: 25px;
 }
