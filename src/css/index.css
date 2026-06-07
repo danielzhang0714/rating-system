@@ -29,8 +29,19 @@ body {
 }
 
 section h2 {
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.reset {
+    display: block;
+    margin: 20px auto 0;
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
 }

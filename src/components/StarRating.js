@@ -15,6 +15,7 @@ function StarRating() {
             </div>
 
             <h2>{ratingwords[rating]}</h2>
+            <button className='reset' onClick={() => setRating(0)}>Reset</button>
         </section>
     )
 };
