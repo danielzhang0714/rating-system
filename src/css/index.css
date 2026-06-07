@@ -8,8 +8,29 @@ body {
     align-items: center;
 }
 
-.star:hover {
-    color: yellow;
+.star {
+    color: grey;
+    font-size: 60px;
     cursor: pointer;
+}
+
+.star:hover {
     transform: scale(1.05);
+}
+
+.star.selected {
+    color: rgb(255, 217, 0);
+}
+
+.starbox {
+    background-color: rgb(48, 48, 48);
+    border: 1px solid #222;
+    display: flex;
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }

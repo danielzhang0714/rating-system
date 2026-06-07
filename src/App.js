@@ -1,9 +1,10 @@
 import Star from "./components/Star";
+import StarRating from "./components/StarRating";
 
 function App() {
   return (
     <main>
-      <Star />
+      <StarRating />
     </main>
   );
 }
